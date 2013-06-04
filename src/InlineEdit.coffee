@@ -52,8 +52,9 @@ module.directive "cbInline", ($timeout) ->
       # to happen asynchronously for the browser to register it
       $timeout (->
         input = elm.find("input")
-        input[0].focus()
-        input[0].select()
+        if input.size() > 0
+          input[0].focus()
+          input[0].select()
       ), 0, false
 
     # Triggered when the field is exited
