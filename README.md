@@ -27,3 +27,6 @@ Example:
 	/>
 
 	
+A fully working example project can be found here:
+
+    http://plnkr.co/edit/A3bwnydFqfAmEu8bc4F3
